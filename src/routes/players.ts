@@ -7,6 +7,4 @@ router.get('/players', controller.getPlayers);
 router.get('/players/statistics', controller.getPlayersStatistics);
 router.get('/players/:id', controller.getPlayer);
 
-
-
 export = router;
