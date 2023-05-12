@@ -15,3 +15,5 @@ npm run dev
 ```bash
 npm run test
 ```
+- Lien Heroku : 
+https://players-app.herokuapp.com/players
