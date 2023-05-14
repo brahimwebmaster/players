@@ -1,4 +1,4 @@
-/** source/controllers/posts.ts */
+/** source/controllers/players.ts */
 import { Request, Response } from 'express';
 import { players } from '../data/players.json';
 import { Player } from '../models/player';
@@ -24,7 +24,7 @@ const getPlayer = (req: Request, res: Response) => {
       return res.status(404).json({ message: "Player not found" });
     }
   };
-
+// Getting players statistics 
   const getPlayersStatistics = (req: Request, res: Response) => {
     return res.status(200).json(getStatistics(players));
 };
